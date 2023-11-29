@@ -1,0 +1,33 @@
+=============== Nov 28, 2023 (IST) ===============
+17:43:49.027984 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:43:49.029811 db@open opening
+17:43:49.030444 version@stat F·[] S·0B[] Sc·[]
+17:43:49.031144 db@janitor F·2 G·0
+17:43:49.031155 db@open done T·1.337759ms
+18:34:49.042959 memdb@flush N·35790 S·3MiB
+18:34:49.122850 memdb@flush created L0@3 N·35790 S·740KiB "loc..seq,v32":"version,v1"
+18:34:49.122941 version@stat F·[1] S·740KiB[740KiB] Sc·[0.25]
+18:34:49.123935 memdb@flush committed F·1 T·80.905489ms
+18:34:49.125780 journal@remove removed @1
+19:12:19.042253 memdb@flush N·34329 S·3MiB
+19:12:19.072321 memdb@flush created L0@5 N·34329 S·667KiB "n:\x00..ing,v43455":"n:\xff..ong,v47166"
+19:12:19.072355 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+19:12:19.072937 memdb@flush committed F·1 T·30.6021ms
+19:12:19.073582 journal@remove removed @2
+19:12:29.432833 table@compaction L0·2 -> L1·0 S·1MiB Q·70286
+19:12:29.523054 table@build created L1@6 N·16141 S·582KiB "loc..seq,v32":"version,v1"
+19:12:29.523163 version@stat F·[0 1] S·582KiB[0B 582KiB] Sc·[0.00 0.01]
+19:12:29.524495 table@compaction committed F-1 S-825KiB Ke·0 D·53978 T·91.560911ms
+19:12:29.524886 table@remove removed @5
+19:12:29.525193 table@remove removed @3
+19:48:49.045745 memdb@flush N·34241 S·3MiB
+19:48:49.118797 memdb@flush created L0@8 N·34241 S·658KiB "n:\x00..ail,v93612":"n:\xfd..ong,v89021"
+19:48:49.118901 version@stat F·[1 1] S·1MiB[658KiB 582KiB] Sc·[0.25 0.01]
+19:48:49.119962 memdb@flush committed F·1 T·74.156119ms
+19:48:49.121802 journal@remove removed @4
+19:49:06.326738 table@compaction L0·1 -> L1·1 S·1MiB Q·104436
+19:49:06.422325 table@build created L1@9 N·21863 S·781KiB "loc..seq,v32":"version,v1"
+19:49:06.422440 version@stat F·[0 1] S·781KiB[0B 781KiB] Sc·[0.00 0.01]
+19:49:06.423369 table@compaction committed F-1 S-458KiB Ke·0 D·28519 T·96.549171ms
+19:49:06.423800 table@remove removed @8
+19:49:06.424106 table@remove removed @6

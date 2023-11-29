@@ -1,0 +1,37 @@
+=============== Nov 28, 2023 (IST) ===============
+17:42:06.394140 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:42:06.396110 db@open opening
+17:42:06.396727 version@stat F·[] S·0B[] Sc·[]
+17:42:06.397339 db@janitor F·2 G·0
+17:42:06.397348 db@open done T·1.230559ms
+17:56:14.241734 db@close closing
+17:56:14.241905 db@close done T·165.62µs
+=============== Nov 28, 2023 (IST) ===============
+17:56:31.460297 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:56:31.460412 version@stat F·[] S·0B[] Sc·[]
+17:56:31.460432 db@open opening
+17:56:31.460476 journal@recovery F·1
+17:56:31.461419 journal@recovery recovering @1
+17:56:31.469838 memdb@flush created L0@2 N·5981 S·164KiB "loc..seq,v27":"version,v1"
+17:56:31.470540 version@stat F·[1] S·164KiB[164KiB] Sc·[0.25]
+17:56:31.473552 db@janitor F·3 G·0
+17:56:31.473571 db@open done T·13.132829ms
+17:56:48.520157 db@close closing
+17:56:48.520213 db@close done T·53.958µs
+=============== Nov 28, 2023 (IST) ===============
+17:59:06.816412 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:59:06.816486 version@stat F·[1] S·164KiB[164KiB] Sc·[0.25]
+17:59:06.816497 db@open opening
+17:59:06.816526 journal@recovery F·1
+17:59:06.817465 journal@recovery recovering @3
+17:59:06.818402 memdb@flush created L0@5 N·159 S·4KiB "loc..seq,v6004":"n:\xf4..ing,v5984"
+17:59:06.818977 version@stat F·[2] S·169KiB[169KiB] Sc·[0.50]
+17:59:06.821351 db@janitor F·4 G·0
+17:59:06.821374 db@open done T·4.873002ms
+17:59:06.829119 table@compaction L0·2 -> L1·0 S·169KiB Q·6142
+17:59:06.832761 table@build created L1@8 N·3266 S·122KiB "loc..seq,v6004":"version,v1"
+17:59:06.832798 version@stat F·[0 1] S·122KiB[0B 122KiB] Sc·[0.00 0.00]
+17:59:06.833966 table@compaction committed F-1 S-46KiB Ke·0 D·2874 T·4.830051ms
+17:59:06.834022 table@remove removed @2
+18:04:30.238119 db@close closing
+18:04:30.238196 db@close done T·75.779µs
